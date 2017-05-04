@@ -10,6 +10,8 @@ var express = require('express'),
 app.use(bodyParser());           // pull information from html in POST
 app.use(methodOverride());      // simulate DELETE and PUT
 
+//test
+
 // CORS (Cross-Origin Resource Sharing) headers to support Cross-site HTTP requests
 app.all('*', function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
